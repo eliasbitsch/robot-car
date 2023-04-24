@@ -1,49 +1,29 @@
-# robot-car
+🚗 Robotic Car Controller 🎮
+This project is a robotic car that can be controlled using a custom controller. It consists of a 3-wheeled car with 2 DC geared motors and a front wheel, an Arduino Uno, an NRF24L01+ 2.4GHz wireless RF transceiver module, a Mini Motor Drive Shield - L293D Module, an on/off switch, LEDs, an ultrasonic sensor, and it can be powered using either a 9V battery or USB.
 
- 🎮
+The custom controller uses an Arduino Uno, an NRF24L01+ 2.4GHz wireless RF transceiver module, a joystick, buttons, an LCD display, a buzzer, and it can also be powered using either a 9V battery or USB. The controller also allows for fine tuning of the car's trajectory using the "Spur trimmen" feature, and it provides various feedback through the serial monitor on the controller, such as the central locking system, light assistant, and brake lights.
 
-This is a project to control a robotic 🚗 car using a custom controller 🎮. The car is 3-wheeled with 2 DC gear motors and a front wheel. The controller uses an Arduino Uno and an NRF24L01+ 2.4GHz Wireless RF Transceiver Module.
+Usage
+To use the robotic car controller, follow these steps:
 
-📦 Parts
+Assemble the robotic car by connecting the various components as described in the documentation.
+Assemble the custom controller by connecting the various components as described in the documentation.
+Power on both the car and the controller.
+The controller will display the available options on the LCD display. Use the joystick and buttons to select the desired option.
+Control the car using the joystick and buttons on the controller. Fine-tune the car's trajectory using the "Spur trimmen" feature.
+Features
+🎮 Custom controller with joystick, buttons, LCD display, and buzzer
+🚗 3-wheeled robotic car with 2 DC geared motors and a front wheel
+📡 NRF24L01+ 2.4GHz wireless RF transceiver module for wireless communication between the car and controller
+💡 LEDs, ultrasonic sensor, and feedback through the serial monitor on the controller
+⚙️ Fine-tune the car's trajectory using the "Spur trimmen" feature
+🔋 Can be powered using either a 9V battery or USB
+Documentation
+See the docs folder for detailed documentation on how to assemble and use the robotic car controller.
 
-🚗 Car:
-3-wheeled (2x DC gear motor + front wheel)
-Arduino Uno
-NRF24L01+ 2.4GHz Wireless RF Transceiver Module
-Mini Motor Drive Shield - L293D Module
-On/Off switch
-LEDs
-Ultrasonic sensor
-Power supply: 9V battery or USB
-🎮 Controller:
-Arduino Uno
-NRF24L01+ 2.4GHz Wireless RF Transceiver Module
-Joystick
-Buttons/LCD display/Buzzer/...
-Power supply: 9V battery or USB
-🎨 Features
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-Control car movement using joystick and buttons on controller
-Trim control for precise movement
-Display car status on serial monitor in controller
-Central locking
-Light assistant
-Brake lights
-📝 Usage
-
-Upload the code for the car to the Arduino Uno
-Connect the car components as per the circuit diagram
-Upload the code for the controller to the Arduino Uno
-Connect the controller components as per the circuit diagram
-Power on the car and the controller
-Use the joystick and buttons to control the car movement
-Monitor car status on the serial monitor in the controller
-📚 Resources
-
-Circuit diagram for car and controller: [link to diagram]
-Code for car: [link to code]
-Code for controller: [link to code]
-👨‍💻 Contributors
-
-[Name and Github profile link]
-[Name and Github profile link]
+Contributors
+John Doe
+Jane Smith
