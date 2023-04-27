@@ -23,7 +23,3 @@ See the docs folder for detailed documentation on how to assemble and use the ro
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
-
-Contributors
-John Doe
-Jane Smith
